@@ -5,6 +5,8 @@ const teachers = ["Nathan", "Ed", "Fabio", "Phil", "Carlo", "Lewis", "Luca"]; //
 const fourthTeacher = console.log(teachers[4]);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
+teachers.splice(5, 1, "Patrick");
+console.table(teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = null;
