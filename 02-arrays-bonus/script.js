@@ -37,6 +37,7 @@ if (index > 0) {
 } else {
   console.log("not present");
 }
-
+console.log("-------------------------");
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+const teachersString = teachers.toString();
+console.log(teachersString);
