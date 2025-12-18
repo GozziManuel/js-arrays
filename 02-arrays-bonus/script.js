@@ -11,7 +11,10 @@ console.log("----------------------");
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 for (let i = 0; i < teachers.length; i++) {
   const teachersFor = teachers[i];
-  console.log(teachersFor);
+
+  if (teachersFor.length >= 5) {
+    console.log(teachersFor);
+  }
 }
 
 // 3. Rimuovi 'Ed' dall'array teachers
